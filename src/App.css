@@ -131,3 +131,13 @@
     align-items: center;
     padding: 20px;
 }
+
+@media only screen and (max-width: 700px) {
+    .MovieView {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

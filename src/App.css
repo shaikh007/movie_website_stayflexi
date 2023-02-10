@@ -41,7 +41,7 @@
 /* Main Div Style */
 
 .firstView {
-    background-color: bisque;
+    /* background-color: bisque; */
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 40px;
@@ -77,7 +77,7 @@
 
 .displaySearch {
     margin-top: 40px;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -100,7 +100,7 @@
 /* Movie Display Style */
 
 .Moviedisplay {
-    background-color: beige;
+    /* background-color: beige; */
     margin-top: 40px;
 }
 
@@ -114,6 +114,10 @@
 
 .title {
     cursor: pointer;
+}
+
+.title:hover {
+    background-color: #61dafb;
 }
 
 .movieClick {
